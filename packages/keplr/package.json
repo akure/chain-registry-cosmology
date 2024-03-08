@@ -1,9 +1,9 @@
 {
-  "name": "@chain-registry/keplr",
+  "name": "@chain-registry-ak/keplr",
   "version": "1.33.6",
   "description": "Chain Registry to Keplr",
   "author": "Dan Lynch <pyramation@gmail.com>",
-  "homepage": "https://github.com/cosmology-tech/chain-registry",
+  "homepage": "https://github.com/akure/chain-registry-cosmology",
   "license": "SEE LICENSE IN LICENSE",
   "main": "main/index.js",
   "typings": "types/index.d.ts",
@@ -34,11 +34,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cosmology-tech/chain-registry"
+    "url": "https://github.com/akure/chain-registry-cosmology"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/cosmology-tech/chain-registry/issues"
+    "url": "https://github.com/akure/chain-registry-cosmology/issues"
   },
   "devDependencies": {
     "@babel/cli": "7.21.0",

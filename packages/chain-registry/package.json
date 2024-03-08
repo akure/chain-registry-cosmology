@@ -1,9 +1,9 @@
 {
-  "name": "chain-registry",
+  "name": "chain-registry-ak",
   "version": "1.28.6",
   "description": "Cosmos chain registry ⚛️",
   "author": "Dan Lynch <pyramation@gmail.com>",
-  "homepage": "https://github.com/cosmology-tech/chain-registry/tree/master/packages/chain-registry#readme",
+  "homepage": "https://github.com/akure/chain-registry-cosmology/tree/master/packages/chain-registry#readme",
   "license": "SEE LICENSE IN LICENSE",
   "main": "main/index.js",
   "typings": "types/index.d.ts",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cosmology-tech/chain-registry"
+    "url": "https://github.com/akure/chain-registry-cosmology"
   },
   "scripts": {
     "build": "cross-env BABEL_ENV=production babel src --out-dir main --delete-dir-on-start --extensions \".tsx,.ts,.js\"",
@@ -36,7 +36,7 @@
     "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
   "bugs": {
-    "url": "https://github.com/cosmology-tech/chain-registry/issues"
+    "url": "https://github.com/akure/chain-registry-cosmology/issues"
   },
   "devDependencies": {
     "@babel/cli": "7.21.0",

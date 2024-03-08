@@ -1,10 +1,10 @@
 {
-  "name": "chain-registry",
+  "name": "chain-registry-ak",
   "version": "0.0.1",
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
-  "private": true,
+  "private": false,
   "scripts": {
     "commit": "git-cz",
     "build": "lerna run prepare --parallel",
@@ -35,6 +35,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cosmology-tech/chain-registry"
+    "url": "https://github.com/akure/chain-registry-cosmology"
   }
 }

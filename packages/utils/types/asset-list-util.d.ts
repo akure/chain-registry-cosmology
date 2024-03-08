@@ -1,4 +1,4 @@
-import { Asset, AssetDenomUnit, AssetList } from '@chain-registry/types';
+import { Asset, AssetDenomUnit, AssetList } from '@chain-registry-ak/types';
 export type CoinDenom = AssetDenomUnit['denom'];
 export type Exponent = AssetDenomUnit['exponent'];
 export interface CoinGeckoUSD {

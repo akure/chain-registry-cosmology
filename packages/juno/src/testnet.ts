@@ -1,4 +1,4 @@
-import { Chain } from '@chain-registry/types';
+import { Chain } from '@chain-registry-ak/types';
 const testnet: Chain = {
   $schema: '../../chain.schema.json',
   chain_name: 'junotestnet',

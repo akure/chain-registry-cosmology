@@ -1,4 +1,4 @@
-import { AssetList, Chain, IBCInfo } from '@chain-registry/types';
+import { AssetList, Chain, IBCInfo } from '@chain-registry-ak/types';
 import { ChainRegistryFetcher } from './fetcher';
 export interface ChainInfoOptions {
     chainName: string;

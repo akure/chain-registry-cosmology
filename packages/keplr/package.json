@@ -1,5 +1,5 @@
 {
-  "name": "@chain-registry-ak/keplr",
+  "name": "@chain-registry-ak-ak/keplr",
   "version": "1.33.6",
   "description": "Chain Registry to Keplr",
   "author": "Dan Lynch <pyramation@gmail.com>",
@@ -72,7 +72,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.21.0",
-    "@chain-registry/types": "^0.18.1",
+    "@chain-registry-ak/types": "^0.18.1",
     "@keplr-wallet/cosmos": "0.12.28",
     "@keplr-wallet/crypto": "0.12.28",
     "semver": "^7.5.0"

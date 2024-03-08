@@ -3,8 +3,8 @@ import {
   Chain,
   ChainRegistry,
   IBCInfo
-} from '@chain-registry/types';
-import { getAssetLists } from '@chain-registry/utils';
+} from '@chain-registry-ak/types';
+import { getAssetLists } from '@chain-registry-ak/utils';
 import { basename } from 'bfs-path';
 import fetch from 'cross-fetch';
 

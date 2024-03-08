@@ -1,4 +1,4 @@
-import { AssetList } from '@chain-registry/types';
+import { AssetList } from '@chain-registry-ak/types';
 
 import _8ball from './8ball';
 import _acrechain from './acrechain';

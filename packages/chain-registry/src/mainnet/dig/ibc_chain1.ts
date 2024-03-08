@@ -1,4 +1,4 @@
-import { IBCInfo } from '@chain-registry/types';
+import { IBCInfo } from '@chain-registry-ak/types';
 const info: IBCInfo[] = [
   {
     $schema: '../ibc_data.schema.json',

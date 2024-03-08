@@ -1,4 +1,4 @@
-import { Chain } from '@chain-registry/types';
+import { Chain } from '@chain-registry-ak/types';
 
 import assets from '../../../__fixtures__/assets.json';
 import chains from '../../../__fixtures__/chains.json';

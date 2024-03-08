@@ -1,4 +1,4 @@
-const { getAssetLists } = require('@chain-registry/utils');
+const { getAssetLists } = require('@chain-registry-ak/utils');
 const { assets, chains, ibc } = require('chain-registry');
 const { rmSync, writeFileSync } = require('fs');
 const { mkdirpSync } = require('mkdirp');
@@ -58,7 +58,7 @@ const writeNetworkAssets = (filePath, networkObj) => {
 
   writeFileSync(
     filePath,
-    `import { AssetList } from '@chain-registry/types';
+    `import { AssetList } from '@chain-registry-ak/types';
 
 ${importStat}
 
@@ -80,7 +80,7 @@ const write = (filePath, json, TypeName, isArray = false) => {
   const exportType = isArray ? TypeName + '[]' : TypeName;
   writeFileSync(
     filePath,
-    `import { ${TypeName} } from '@chain-registry/types';
+    `import { ${TypeName} } from '@chain-registry-ak/types';
 const assets: ${exportType} = ${strfy};
 export default assets;
     `
@@ -103,7 +103,7 @@ const writeRootAssets = (filePath, obj) => {
 
   writeFileSync(
     filePath,
-    `import { AssetList } from '@chain-registry/types';
+    `import { AssetList } from '@chain-registry-ak/types';
 
 ${importStat}
 

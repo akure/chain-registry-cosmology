@@ -1,4 +1,4 @@
-import { AssetList } from '@chain-registry/types';
+import { AssetList } from '@chain-registry-ak/types';
 const asset_list: AssetList = {
   chain_name: 'juno',
   assets: [

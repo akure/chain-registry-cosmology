@@ -1,4 +1,4 @@
-import { Chain } from '@chain-registry/types';
+import { Chain } from '@chain-registry-ak/types';
 
 export const getGasPriceStep = (chain: Chain) => {
   return {

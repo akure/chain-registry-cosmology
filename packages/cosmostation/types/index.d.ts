@@ -1,4 +1,4 @@
-import { AssetList, Chain } from '@chain-registry/types';
+import { AssetList, Chain } from '@chain-registry-ak/types';
 import { AddChainParams } from '@cosmostation/extension-client/types/message';
 export declare const chainRegistryChainToCosmostation: (chain: Chain, assets: AssetList[], options?: {
     getRestEndpoint: (chain: Chain) => string;

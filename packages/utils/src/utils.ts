@@ -1,4 +1,4 @@
-import { AssetList, IBCInfo } from '@chain-registry/types';
+import { AssetList, IBCInfo } from '@chain-registry-ak/types';
 import { sha256 } from 'sha.js';
 
 export const ibcDenom = (

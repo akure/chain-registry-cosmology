@@ -1,4 +1,4 @@
-import { Chain } from '@chain-registry/types';
+import { Chain } from '@chain-registry-ak/types';
 
 import * as _mainnet from './mainnet/all';
 import * as _testnet from './testnet/all';

@@ -1,10 +1,10 @@
-import { Asset, AssetList } from '@chain-registry/types';
+import { Asset, AssetList } from '@chain-registry-ak/types';
 import type {
   CoinDenom,
   CoinGeckoUSD,
   Exponent,
   PriceHash
-} from '@chain-registry/utils';
+} from '@chain-registry-ak/utils';
 import {
   convertBaseUnitsToDisplayUnits,
   convertBaseUnitsToDollarValue,
@@ -17,7 +17,7 @@ import {
   getExponentByDenom,
   getSymbolByChainDenom,
   noDecimals
-} from '@chain-registry/utils';
+} from '@chain-registry-ak/utils';
 
 import { ChainInfo } from './chain-info';
 

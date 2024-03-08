@@ -1,4 +1,4 @@
-import { IBCInfo } from '@chain-registry/types';
+import { IBCInfo } from '@chain-registry-ak/types';
 
 import * as _akashtestnet from './akashtestnet';
 import * as _archwaytestnet from './archwaytestnet';

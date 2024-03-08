@@ -1,4 +1,4 @@
-import { AssetList } from '@chain-registry/types';
+import { AssetList } from '@chain-registry-ak/types';
 const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chain_name: 'statesettestnet',

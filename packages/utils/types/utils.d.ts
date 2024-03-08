@@ -1,4 +1,4 @@
-import { AssetList, IBCInfo } from '@chain-registry/types';
+import { AssetList, IBCInfo } from '@chain-registry-ak/types';
 export declare const ibcDenom: (paths: {
     port_id: string;
     channel_id: string;

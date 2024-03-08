@@ -1,4 +1,4 @@
-const { getAssetLists } = require('@chain-registry/utils');
+const { getAssetLists } = require('@chain-registry-ak/utils');
 const { assets, chains, ibc } = require('chain-registry');
 const { writeFileSync } = require('fs');
 
@@ -23,7 +23,7 @@ const write = (file, json, TypeName, isArray = false) => {
   const exportType = isArray ? TypeName + '[]' : TypeName;
   writeFileSync(
     `${__dirname}/../src/${file}.ts`,
-    `import { ${TypeName} } from '@chain-registry/types';
+    `import { ${TypeName} } from '@chain-registry-ak/types';
 const ${file}: ${exportType} = ${strfy};
 export default ${file};
     `

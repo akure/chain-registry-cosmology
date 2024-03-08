@@ -1,4 +1,4 @@
-import { AssetList, Chain } from '@chain-registry/types';
+import { AssetList, Chain } from '@chain-registry-ak/types';
 import { ChainInfo } from '@keplr-wallet/types';
 export declare const chainRegistryChainToKeplr: (chain: Chain, assets: AssetList[], options?: {
     getRpcEndpoint: (chain: Chain) => string;

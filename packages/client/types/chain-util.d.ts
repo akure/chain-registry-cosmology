@@ -1,5 +1,5 @@
-import { Asset } from '@chain-registry/types';
-import type { CoinDenom, CoinGeckoUSD, Exponent, PriceHash } from '@chain-registry/utils';
+import { Asset } from '@chain-registry-ak/types';
+import type { CoinDenom, CoinGeckoUSD, Exponent, PriceHash } from '@chain-registry-ak/utils';
 import { ChainInfo } from './chain-info';
 export interface ChainRegistryChainUtilOptions {
     chainName: string;

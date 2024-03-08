@@ -1,4 +1,4 @@
-import { IBCInfo } from '@chain-registry/types';
+import { IBCInfo } from '@chain-registry-ak/types';
 
 import * as _8ball from './8ball';
 import * as _acrechain from './acrechain';

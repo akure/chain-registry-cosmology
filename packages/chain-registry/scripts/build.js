@@ -18,7 +18,7 @@ const write = (filePath, json, TypeName, isArray = false) => {
   const exportType = isArray ? TypeName + '[]' : TypeName;
   fs.writeFileSync(
     filePath,
-    `import { ${TypeName} } from '@chain-registry/types';
+    `import { ${TypeName} } from '@chain-registry-ak/types';
 const info: ${exportType} = ${strfy};
 export default info;`
   );
@@ -92,7 +92,7 @@ const writeNetworkAssets = (filePath, networkObj) => {
 
   fs.writeFileSync(
     filePath,
-    `import { AssetList } from '@chain-registry/types';
+    `import { AssetList } from '@chain-registry-ak/types';
 
 ${importStat}
 
@@ -130,7 +130,7 @@ const writeNetworkChains = (filePath, networkObj) => {
 
   fs.writeFileSync(
     filePath,
-    `import { Chain } from '@chain-registry/types';
+    `import { Chain } from '@chain-registry-ak/types';
 
 ${importStat}
 
@@ -168,7 +168,7 @@ const writeNetworkIbc = (filePath, networkObj) => {
 
   fs.writeFileSync(
     filePath,
-    `import { IBCInfo } from '@chain-registry/types';
+    `import { IBCInfo } from '@chain-registry-ak/types';
 
 ${importStat}
 
@@ -254,7 +254,7 @@ const writeRootAssets = (filePath, obj) => {
 
   fs.writeFileSync(
     filePath,
-    `import { AssetList } from '@chain-registry/types';
+    `import { AssetList } from '@chain-registry-ak/types';
 
 ${importStat}
 
@@ -292,7 +292,7 @@ const writeRootChains = (filePath, obj) => {
 
   fs.writeFileSync(
     filePath,
-    `import { Chain } from '@chain-registry/types';
+    `import { Chain } from '@chain-registry-ak/types';
 
 ${importStat}
 
@@ -330,7 +330,7 @@ const writeRootIbc = (filePath, obj) => {
 
   fs.writeFileSync(
     filePath,
-    `import { IBCInfo } from '@chain-registry/types';
+    `import { IBCInfo } from '@chain-registry-ak/types';
 
 ${importStat}
 

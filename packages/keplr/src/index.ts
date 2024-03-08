@@ -1,4 +1,4 @@
-import { Asset, AssetList, Chain } from '@chain-registry/types';
+import { Asset, AssetList, Chain } from '@chain-registry-ak/types';
 import { Bech32Address } from '@keplr-wallet/cosmos';
 import { ChainInfo, Currency, FeeCurrency } from '@keplr-wallet/types';
 import semver from 'semver';
@@ -22,7 +22,7 @@ const cleanVer = (ver: string) => {
       case 3:
       default:
         throw new Error(
-          'contact @chain-registry/keplr maintainers: bad version'
+          'contact @chain-registry-ak/keplr maintainers: bad version'
         );
     }
   }
